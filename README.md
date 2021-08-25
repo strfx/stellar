@@ -4,7 +4,9 @@ StellarAI powers the autonomous navigation of the mobile robot *Hyperion*. This 
 
 StellarAI is inspired by the concepts taught in the Udacity course [Artificial Intelligence for Robotics](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) and the book [Probabilistic Robotics](http://probabilistic-robotics.org/).
 
-![Stellar Simulator](docs/simulator.png)
+<p align="center">
+  <img width="500px" src="https://github.com/strfx/stellar/blob/main/docs/simulator.png?raw=true" alt="Stellar viz"/>
+</p>
 
 # Getting started
 
