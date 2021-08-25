@@ -2,11 +2,16 @@
 
 StellarAI powers the autonomous navigation of the mobile robot *Hyperion*. This project was developed during the interdisciplinary course *Produktentwicklung (PREN)* at the Hochschule Luzern. Due to the COVID-19 pandemic, the functionality could only be simulated. However, the concepts used can be used for real-world robotics.
 
-StellarAI is inspired by the concepts taught in the Udacity course [Artificial Intelligence for Robotics](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) and the book [Probabilistic Robotics](http://probabilistic-robotics.org/).
-
 <p align="center">
   <img width="500px" src="https://github.com/strfx/stellar/blob/main/docs/simulator.png?raw=true" alt="Stellar viz"/>
 </p>
+
+StellarAI is inspired by the concepts taught in the Udacity course [Artificial Intelligence for Robotics](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) and the book [Probabilistic Robotics](http://probabilistic-robotics.org/), including 
+* [Occupancy Grid Maps](https://en.wikipedia.org/wiki/Occupancy_grid_mapping) to transform the robot's physical environment into a probabilistic model
+* [A* Search Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) to plan an optimal path through the environment (from start to finish)
+* [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) to optimize the planned path for the robots motion
+* [PID controller](https://en.wikipedia.org/wiki/PID_controller) to stay on the planned track during motion
+* [Computer vision](https://en.wikipedia.org/wiki/Computer_vision) to detect pylons in its environment
 
 # Getting started
 
