@@ -210,3 +210,4 @@ tests/pylon_test_images_output/*
 *.mp4
 *.jpg
 *.png
+!docs/*.png
