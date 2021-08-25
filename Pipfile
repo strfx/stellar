@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pylint = "*"
+msgpack = "*"
+matplotlib = "*"
+pypng = "*"
+jupyter = "*"
+
+[packages]
+numpy = "*"
+tqdm = "*"
+bresenham = "*"
+stellarai = {editable = true,path = "."}
+matplotlib = "*"
+scipy = "*"
+scikit-image = "*"
+pypng = "*"
+hypothesis = "*"
+pytest = "*"
+opencv-contrib-python = "*"
+imageio = "*"
+
+[requires]
+python_version = "3.8"

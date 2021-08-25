@@ -1,0 +1,68 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: lightgray;
+  display: grid;
+  grid-template-rows: 20px auto auto;
+  grid-template-columns: 50% 50%;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+body > * {
+  border: 0 solid rgb(64, 64, 64);
+  border-top-width: thin;
+  border-right-width: thin;
+}
+
+meter {
+  width: 100%;
+}
+
+#time {
+  display: flex;
+  justify-content: space-between;
+}
+
+#battery {
+  text-align: right;
+}
+
+#time,
+#battery {
+  padding: 0 0.2em;
+}
+
+#camera-feed {
+  max-width: 100%;
+}
+
+#sensors-mechanical,
+#sensors-electrical {
+  padding: 0.2em;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 5em 7em auto;
+}
+
+#sensors-mechanical > span.sensor-value,
+#sensors-electrical > span.sensor-value {
+  padding-right: 0.2em;
+  text-align: right;
+}
+
+@media screen and (orientation:portrait) {
+  body {
+    grid-template-rows: 20px auto auto auto auto;
+  }
+
+  body > * {
+    grid-column-end: span 2;
+  }
+
+  #time,
+  #battery {
+    grid-column-end: span 1;
+  }
+}

@@ -1,0 +1,1 @@
+ffmpeg -r 24 -start_number 4 -i %%d_7_final.png -c:v libx264 -pix_fmt yuv420p out.mp4

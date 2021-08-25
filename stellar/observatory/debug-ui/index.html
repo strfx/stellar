@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Debuging UI" />
+    <title>Debuging UI</title>
+    <link rel="stylesheet" href="./debug.css" />
+    <script src="./pull.js" defer></script>
+</head>
+
+<body>
+    <div id="time">
+        <div id="currentTime">00:57</div>
+        <div id="bestTime">Best Lap: 01:32</div>
+    </div>
+    <div id="battery">Battery: 99%</div>
+    <canvas id="map"></canvas>
+    <img id="camera-feed"></img>
+    <div id="sensors-mechanical">
+        <span>Motor</span>
+        <span class="sensor-value" id="motor-value">800 RPM</span>
+        <meter id="motor-meter" value="800" min="0" max="1600"></meter>
+        <span>Steuerung</span>
+        <span class="sensor-value" id="steering-value">-30&deg;</span>
+        <meter id="steering-meter" value="-30" min="-90" max="90"></meter>
+    </div>
+    <div id="sensors-electrical">
+        <span>CPU 1</span>
+        <span class="sensor-value" id="cpu0-value">52%</span>
+        <meter id="cpu0-meter" value="52" min="0" max="100"></meter>
+        <span>CPU 2</span>
+        <span class="sensor-value" id="cpu1-value">82%</span>
+        <meter id="cpu1-meter" value="82" min="0" max="100"></meter>
+        <span>CPU 3</span>
+        <span class="sensor-value" id="cpu2-value">99%</span>
+        <meter id="cpu2-meter" value="99" min="0" max="100"></meter>
+        <span>CPU 4</span>
+        <span class="sensor-value" id="cpu3-value">26%</span>
+        <meter id="cpu3-meter" value="26" min="0" max="100"></meter>
+        <span>CPU temp</span>
+        <span class="sensor-value" id="temp-value">90&deg;</span>
+        <meter id="temp-meter" value="90" min="0" max="100" high="65"></meter>
+        <span>RAM</span>
+        <span class="sensor-value" id="ram-value">73%</span>
+        <meter id="ram-meter" value="73" min="0" max="100">73%</meter>
+    </div>
+</body>
+
+</html>
