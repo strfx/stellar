@@ -1,4 +1,4 @@
-# StellarAI 🧠🏁
+# StellarAI 🌠
 
 StellarAI powers the autonomous navigation of the mobile robot *Hyperion*. This project was developed during the interdisciplinary course *Produktentwicklung (PREN)* at the Hochschule Luzern. Due to the COVID-19 pandemic, the functionality could only be simulated. However, the concepts used can be used for real-world robotics.
 
